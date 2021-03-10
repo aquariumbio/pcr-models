@@ -45,7 +45,7 @@ module RunThermocycler
       program_name: temporary_options[:program_name]
     )
 
-    many_display(
+    display(
       title: 'Run Thermocycler',
       show_block: [
         "Set up #{plates.length} <b>#{thermocycler.model}</b> thermocyclers",
